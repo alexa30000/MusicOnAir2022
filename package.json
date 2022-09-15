@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "vue-cli-service lint --fix && vue-cli-service serve --port 9999",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy-local": "vue-cli-service build && npx http-server dist",

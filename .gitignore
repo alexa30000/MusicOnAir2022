@@ -1,9 +1,10 @@
 .DS_Store
 node_modules
 /dist
-
+/build
 
 # local env files
+.env
 .env.local
 .env.*.local
 
@@ -12,6 +13,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.log*
 
 # Editor directories and files
 .idea
@@ -21,4 +23,27 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-yarn.lock 
+
+# Package lock file
+yarn.lock
+package-lock.json
+
+#v Vercel files
+.vercel
+vercel.json
+
+#Electron-builder output
+/dist_electron
+
+# Local Netlify folder
+.netlify
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
